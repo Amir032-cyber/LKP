@@ -121,7 +121,6 @@
       margin-bottom: 0.8rem;
     }
 
-    /* ===== NAVIGATION ===== */
     .navbar {
       position: fixed;
       top: 0;
@@ -238,7 +237,6 @@
       cursor: pointer;
     }
 
-    /* ===== HERO ===== */
     .hero {
       margin-top: 74px;
       min-height: 85vh;
@@ -340,7 +338,6 @@
       opacity: 0.7;
     }
 
-    /* ===== SECTIONS GÉNÉRALES ===== */
     section {
       padding: 80px 0;
     }
@@ -348,7 +345,6 @@
       background: var(--gris-clair);
     }
 
-    /* ===== POURQUOI NOUS CHOISIR ===== */
     .why-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -381,7 +377,6 @@
       color: #1e1e2a;
     }
 
-    /* ===== FORMATIONS ===== */
     .formations-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -468,7 +463,6 @@
       margin-right: 4px;
     }
 
-    /* ===== ADMISSIONS ===== */
     .admissions-pieces {
       background: #fff;
       border-radius: 28px;
@@ -490,7 +484,6 @@
       text-align: center;
     }
 
-    /* ===== À PROPOS ===== */
     .apropos-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -573,7 +566,6 @@
       color: #777;
     }
 
-    /* ===== GALERIE ===== */
     .galerie-filtres {
       display: flex;
       flex-wrap: wrap;
@@ -652,7 +644,6 @@
       background: linear-gradient(135deg, #bf360c, #FF7043);
     }
 
-    /* ===== ACTUALITÉS ===== */
     .actus-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -686,7 +677,6 @@
       font-size: 0.95rem;
     }
 
-    /* ===== CONTACT ===== */
     .contact-wrap {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -747,7 +737,6 @@
       gap: 10px;
     }
 
-    /* ===== BOUTONS FLOTTANTS ===== */
     .floating-buttons {
       position: fixed;
       bottom: 28px;
@@ -777,7 +766,6 @@
       background: #25D366;
     }
 
-    /* ===== BACK TO TOP ===== */
     .back-top {
       position: fixed;
       bottom: 120px;
@@ -805,7 +793,6 @@
       background: var(--rouge);
     }
 
-    /* ===== FOOTER ===== */
     .footer {
       background: #0a1a2e;
       color: #c8d0dc;
@@ -873,7 +860,6 @@
       color: #ffd54f;
     }
 
-    /* ===== RESPONSIVE ===== */
     @media (max-width: 992px) {
       .apropos-grid {
         grid-template-columns: 1fr;
@@ -939,7 +925,6 @@
       }
     }
 
-    /* ===== REVEAL ===== */
     .reveal {
       opacity: 0;
       transform: translateY(40px);
@@ -952,8 +937,6 @@
   </style>
 </head>
 <body>
-
-  <!-- ===== NAVIGATION ===== -->
   <nav class="navbar" id="navbar">
     <div class="container">
       <div class="nav-logo">
@@ -977,7 +960,6 @@
     </div>
   </nav>
 
-  <!-- ===== HERO ===== -->
   <section class="hero" id="accueil">
     <div class="container">
       <div class="hero-content">
@@ -991,355 +973,19 @@
         </div>
         <div class="hero-stats">
           <div class="stat"><span class="number">10+</span><span class="label">Filières</span></div>
-          <div class="stat"><span class="number">95%</span><span class="label">Réussite aux examens</span></div>
+          <div class="stat"><span class="number">98%</span><span class="label">Réussite aux examens</span></div>
           <div class="stat"><span class="number">50+</span><span class="label">Enseignants expérimentés</span></div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===== POURQUOI NOUS CHOISIR ===== -->
-  <section id="pourquoi" class="alt-bg">
-    <div class="container">
-      <div class="section-badge reveal">Nos atouts</div>
-      <h2 class="section-title reveal">Pourquoi choisir le LPK ?</h2>
-      <p class="section-subtitle reveal">Des valeurs et des engagements qui font la différence</p>
-      <div class="why-grid">
-        <div class="why-card reveal"><i class="fas fa-chart-line"></i><h4>Évaluations régulières</h4></div>
-        <div class="why-card reveal"><i class="fas fa-users-cog"></i><h4>Travaux dirigés</h4></div>
-        <div class="why-card reveal"><i class="fas fa-tools"></i><h4>Travaux pratiques toute l'année</h4></div>
-        <div class="why-card reveal"><i class="fas fa-chalkboard-teacher"></i><h4>Enseignants expérimentés</h4></div>
-        <div class="why-card reveal"><i class="fas fa-hand-holding-heart"></i><h4>Accompagnement des classes d'examen</h4></div>
-        <div class="why-card reveal"><i class="fas fa-file-invoice"></i><h4>Frais de dossiers aux examens pris en charge</h4></div>
-        <div class="why-card reveal"><i class="fas fa-user-graduate"></i><h4>Encadrement personnalisé</h4></div>
-        <div class="why-card reveal"><i class="fas fa-building"></i><h4>Cadre d'apprentissage moderne</h4></div>
-        <div class="why-card reveal"><i class="fas fa-trophy"></i><h4>Excellents résultats scolaires</h4></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== NOS FORMATIONS ===== -->
-  <section id="formations">
-    <div class="container">
-      <div class="section-badge reveal">Parcours</div>
-      <h2 class="section-title reveal">Nos formations</h2>
-      <p class="section-subtitle reveal">Des parcours général, technique et professionnel pour votre réussite</p>
-      <div class="formations-grid">
-        <!-- Général -->
-        <div class="formation-card reveal">
-          <div class="formation-header general"><i class="fas fa-graduation-cap"></i><span>Général</span></div>
-          <div class="formation-body">
-            <span class="badge">Général</span>
-            <h3>Enseignement Général</h3>
-            <p>Formation de qualité pour réussir le BEPC et le Baccalauréat avec un suivi rigoureux.</p>
-            <ul>
-              <li><strong>Post-primaire :</strong> 6e, 5e, 4e, 3e</li>
-              <li><strong>Secondaire :</strong> Seconde, 1ère A/D, Terminale A/D</li>
-            </ul>
-            <div class="avantages">
-              <span><i class="fas fa-check-circle"></i> Évaluations régulières</span>
-              <span><i class="fas fa-check-circle"></i> Travaux dirigés</span>
-              <span><i class="fas fa-check-circle"></i> Préparation intensive</span>
-              <span><i class="fas fa-check-circle"></i> Frais BEPC pris en charge</span>
-            </div>
-          </div>
-        </div>
-        <!-- Technique -->
-        <div class="formation-card reveal">
-          <div class="formation-header technique"><i class="fas fa-microchip"></i><span>Technique</span></div>
-          <div class="formation-body">
-            <span class="badge">Technique (LPTIC-B)</span>
-            <h3>Enseignement Technique</h3>
-            <p>Formation tertiaire et industrielle alliant théorie et pratique.</p>
-            <ul>
-              <li><strong>Tertiaire :</strong> 2nde AB3, ACC, 1ère G2, Terminale G2</li>
-              <li><strong>Industriel :</strong> Génie Civil, Électrotechnique, Maintenance Industrielle, Électronique</li>
-              <li>Terminales F2 et F3</li>
-            </ul>
-            <div class="avantages">
-              <span><i class="fas fa-check-circle"></i> TP toute l'année</span>
-              <span><i class="fas fa-check-circle"></i> Ateliers équipés</span>
-              <span><i class="fas fa-check-circle"></i> Encadrement professionnel</span>
-            </div>
-          </div>
-        </div>
-        <!-- Professionnel -->
-        <div class="formation-card reveal">
-          <div class="formation-header professionnel"><i class="fas fa-briefcase"></i><span>Professionnel</span></div>
-          <div class="formation-body">
-            <span class="badge">Professionnel</span>
-            <h3>Enseignement Professionnel</h3>
-            <p>Formation pratique pour une insertion rapide dans le monde du travail.</p>
-            <ul>
-              <li><strong>Bac Pro :</strong> Maintenance Industrielle, Génie Civil, Électrotechnique</li>
-            </ul>
-            <div class="avantages">
-              <span><i class="fas fa-check-circle"></i> TP toute l'année</span>
-              <span><i class="fas fa-check-circle"></i> Ateliers équipés</span>
-              <span><i class="fas fa-check-circle"></i> Formation adaptée au marché</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <p style="text-align:center;margin-top:2.5rem;font-weight:600;color:var(--bleu);font-size:1.1rem;">
-        <i class="fas fa-calendar-alt"></i> Année scolaire 2026 – 2027
-      </p>
-    </div>
-  </section>
-
-  <!-- ===== ADMISSIONS ===== -->
-  <section id="admissions" class="alt-bg">
-    <div class="container">
-      <div class="section-badge reveal">Inscription</div>
-      <h2 class="section-title reveal">Admissions 2026-2027</h2>
-      <p class="section-subtitle reveal">Conditions d'inscription – Pièces à fournir</p>
-      <div class="admissions-pieces reveal">
-        <ul>
-          <li><strong>Fiche d'inscription</strong> disponible à l'établissement</li>
-          <li><strong>Photocopie de l'extrait de naissance</strong> ou jugement supplétif</li>
-          <li><strong>Bulletin de notes</strong> de la dernière classe fréquentée</li>
-          <li><strong>Quitus de sortie</strong></li>
-          <li><strong>Photocopie du CEP</strong> pour l'entrée en 6ème</li>
-          <li><strong>Photocopie du BEPC</strong> pour l'entrée en Seconde</li>
-        </ul>
-      </div>
-      <div class="admissions-btn-wrap reveal">
-        <a href="#" class="btn btn-rouge" style="font-size:1.15rem;padding:16px 52px;"><i class="fas fa-pen"></i> Commencer mon inscription</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== À PROPOS ===== -->
-  <section id="apropos">
-    <div class="container">
-      <div class="section-badge reveal">Qui sommes-nous ?</div>
-      <h2 class="section-title reveal">À propos du LPK</h2>
-      <div class="apropos-grid">
-        <div class="apropos-text reveal">
-          <p>Le <strong>Lycée Privé KENNTNIS</strong> est un établissement privé conventionné situé à Bobo-Dioulasso. Il a pour mission d'offrir un enseignement de qualité dans les domaines général, technique et professionnel afin de former des citoyens compétents, responsables et capables de relever les défis du monde moderne.</p>
-          <p><strong>Nos valeurs :</strong></p>
-          <div class="valeurs-list">
-            <span>Excellence</span><span>Discipline</span><span>Travail</span><span>Respect</span>
-            <span>Responsabilité</span><span>Intégrité</span><span>Innovation</span><span>Réussite</span>
-          </div>
-        </div>
-        <div class="reveal">
-          <h3 style="color:var(--bleu);margin-bottom:1.2rem;font-size:1.4rem;">Nos engagements</h3>
-          <div class="engagements-grid">
-            <div class="item">Réussite scolaire</div>
-            <div class="item">Formation technique de qualité</div>
-            <div class="item">Insertion professionnelle</div>
-            <div class="item">Encadrement personnalisé</div>
-            <div class="item">Enseignants expérimentés</div>
-            <div class="item">Travaux pratiques</div>
-            <div class="item">Préparation aux examens</div>
-            <div class="item">Éducation citoyenne</div>
-          </div>
-        </div>
-      </div>
-      <!-- Enseignants -->
-      <div style="margin-top:3.5rem;">
-        <h3 class="section-title reveal" style="font-size:1.8rem;">Nos enseignants</h3>
-        <p class="section-subtitle reveal">Un corps professoral expérimenté provenant des meilleurs établissements</p>
-        <div class="enseignants-grid">
-          <div class="enseignant-card reveal"><i class="fas fa-user-tie"></i><h4>LOC</h4><p>Lycée Ouaga</p></div>
-          <div class="enseignant-card reveal"><i class="fas fa-user-tie"></i><h4>LMVTD</h4><p>Lycée Moderne</p></div>
-          <div class="enseignant-card reveal"><i class="fas fa-user-tie"></i><h4>Mollo Sanou</h4><p>Enseignant expert</p></div>
-          <div class="enseignant-card reveal"><i class="fas fa-user-tie"></i><h4>Lycée Scientifique</h4><p>Excellence scientifique</p></div>
-          <div class="enseignant-card reveal"><i class="fas fa-user-tie"></i><h4>Lycées des Arrondissements</h4><p>Expérience terrain</p></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== GALERIE ===== -->
-  <section id="galerie" class="alt-bg">
-    <div class="container">
-      <div class="section-badge reveal">Visuels</div>
-      <h2 class="section-title reveal">Galerie</h2>
-      <p class="section-subtitle reveal">Découvrez notre environnement d'apprentissage</p>
-      <div class="galerie-filtres reveal">
-        <button class="active" data-filter="all">Toutes</button>
-        <button data-filter="salle">Salles de classe</button>
-        <button data-filter="tp">Travaux pratiques</button>
-        <button data-filter="labo">Laboratoires</button>
-        <button data-filter="eleves">Élèves</button>
-        <button data-filter="activites">Activités</button>
-        <button data-filter="examens">Examens</button>
-        <button data-filter="diplomes">Remises de diplômes</button>
-        <button data-filter="culture">Journées culturelles</button>
-      </div>
-      <div class="galerie-grid" id="galerieGrid">
-        <div class="galerie-item" data-cat="salle"><i class="fas fa-chalkboard"></i><span>Salle de classe</span></div>
-        <div class="galerie-item" data-cat="tp"><i class="fas fa-tools"></i><span>TP</span></div>
-        <div class="galerie-item" data-cat="labo"><i class="fas fa-flask"></i><span>Laboratoire</span></div>
-        <div class="galerie-item" data-cat="eleves"><i class="fas fa-user-graduate"></i><span>Élèves</span></div>
-        <div class="galerie-item" data-cat="activites"><i class="fas fa-futbol"></i><span>Activités</span></div>
-        <div class="galerie-item" data-cat="examens"><i class="fas fa-pencil-alt"></i><span>Examens</span></div>
-        <div class="galerie-item" data-cat="diplomes"><i class="fas fa-award"></i><span>Diplômes</span></div>
-        <div class="galerie-item" data-cat="culture"><i class="fas fa-music"></i><span>Culture</span></div>
-        <div class="galerie-item" data-cat="salle"><i class="fas fa-door-open"></i><span>Espaces</span></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== ACTUALITÉS ===== -->
-  <section id="actualites">
-    <div class="container">
-      <div class="section-badge reveal">Actualités</div>
-      <h2 class="section-title reveal">Actualités</h2>
-      <p class="section-subtitle reveal">Les événements marquants du LPK</p>
-      <div class="actus-grid">
-        <div class="actus-card reveal"><span class="date">Octobre 2026</span><h4>Rentrée scolaire 2026-2027</h4><p>Accueil des élèves dans de nouvelles conditions.</p></div>
-        <div class="actus-card reveal"><span class="date">Juillet 2027</span><h4>Résultats des examens</h4><p>Félicitations à nos lauréats du BEPC et du Bac.</p></div>
-        <div class="actus-card reveal"><span class="date">Mars 2027</span><h4>Journées portes ouvertes</h4><p>Découvrez nos filières et rencontrez nos équipes.</p></div>
-        <div class="actus-card reveal"><span class="date">Avril 2027</span><h4>Concours d'excellence</h4><p>Récompense des meilleurs élèves de l'établissement.</p></div>
-        <div class="actus-card reveal"><span class="date">Mai 2027</span><h4>Activités sportives</h4><p>Tournoi inter-classes et compétitions.</p></div>
-        <div class="actus-card reveal"><span class="date">Juin 2027</span><h4>Conférences éducatives</h4><p>Thèmes : orientation, métiers, avenir.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== CONTACT ===== -->
-  <section id="contact" class="alt-bg">
-    <div class="container">
-      <div class="section-badge reveal">Nous écrire</div>
-      <h2 class="section-title reveal">Contact</h2>
-      <p class="section-subtitle reveal">Nous sommes à votre écoute</p>
-      <div class="contact-wrap">
-        <div class="reveal">
-          <form class="contact-form" id="contactForm">
-            <input type="text" placeholder="Nom" required />
-            <input type="text" placeholder="Prénom" required />
-            <input type="tel" placeholder="Téléphone" required />
-            <input type="email" placeholder="Email" required />
-            <input type="text" placeholder="Sujet" />
-            <textarea placeholder="Votre message..." required></textarea>
-            <button type="submit" class="btn" style="width:100%;"><i class="fas fa-paper-plane"></i> Envoyer le message</button>
-          </form>
-        </div>
-        <div class="contact-infos reveal">
-          <p><i class="fas fa-map-marker-alt"></i> Réserve Zone Artisanale, Secteur 24, à 100 m au Sud du CSPS, Bobo-Dioulasso, Burkina Faso</p>
-          <p><i class="fas fa-phone-alt"></i> +226 20 97 25 35</p>
-          <p><i class="fas fa-phone-alt"></i> +226 76 61 17 46</p>
-          <p><i class="fas fa-phone-alt"></i> +226 71 53 39 02</p>
-          <p><i class="fas fa-phone-alt"></i> +226 78 94 33 78</p>
-          <p><i class="fas fa-envelope"></i> contact@lpk-bf.com</p>
-          <p><i class="fas fa-clock"></i> Lun–Ven 07h30–17h30 · Sam 08h–12h · Dim fermé</p>
-          <div class="map-placeholder"><i class="fas fa-map" style="margin-right:8px;"></i> Google Maps – Emplacement du LPK</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== BOUTONS FLOTTANTS ===== -->
-  <div class="floating-buttons">
-    <a href="tel:+22620972535" aria-label="Appeler"><i class="fas fa-phone"></i></a>
-    <a href="https://wa.me/22676611746" target="_blank" class="whatsapp" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-  </div>
-
-  <!-- ===== BACK TO TOP ===== -->
-  <a href="#" class="back-top" id="backTop"><i class="fas fa-arrow-up"></i></a>
-
-  <!-- ===== FOOTER ===== -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div>
-          <div class="footer-logo">
-            <div class="logo-icon">LPK</div>
-            <div class="logo-text">
-              KENNTNIS <span>▪</span>
-              <small>Lycée Privé Conventionné</small>
-            </div>
-          </div>
-          <p>Réserve Zone Artisanale, Secteur 24, Bobo-Dioulasso</p>
-          <p><i class="fas fa-phone" style="width:20px;"></i> +226 20 97 25 35</p>
-          <p><i class="fas fa-envelope" style="width:20px;"></i> contact@lpk-bf.com</p>
-          <div class="footer-social" style="margin-top:0.8rem;">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-whatsapp"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-          </div>
-        </div>
-        <div>
-          <h4>Navigation</h4>
-          <a href="#accueil">Accueil</a><br />
-          <a href="#formations">Nos Formations</a><br />
-          <a href="#admissions">Admissions</a><br />
-          <a href="#apropos">À propos</a><br />
-          <a href="#galerie">Galerie</a><br />
-          <a href="#actualites">Actualités</a><br />
-          <a href="#contact">Contact</a>
-        </div>
-        <div>
-          <h4>Liens utiles</h4>
-          <a href="#admissions">Inscription</a><br />
-          <a href="#">Mentions légales</a><br />
-          <a href="#">Politique de confidentialité</a><br />
-          <a href="#">Plan du site</a>
-        </div>
-        <div>
-          <h4>Année scolaire</h4>
-          <p style="font-weight:700;color:#ffd54f;">2026 – 2027</p>
-          <p style="margin-top:0.5rem;">Bonne et heureuse année scolaire à tous !</p>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        © 2027 Lycée Privé KENNTNIS (LPK) – Tous droits réservés.<br />
-        Développé par Digital Leaders Academy.
-      </div>
-    </div>
-  </footer>
-
-  <!-- ===== JAVASCRIPT ===== -->
   <script>
-    (function() {
-      // Menu mobile
-      const toggle = document.getElementById('navToggle');
-      const menu = document.getElementById('navMenu');
-      toggle.addEventListener('click', () => { menu.classList.toggle('open'); });
-      document.querySelectorAll('.nav-menu a').forEach(link => {
-        link.addEventListener('click', () => { menu.classList.remove('open'); });
-      });
-
-      // Sticky navbar & back-top
-      window.addEventListener('scroll', () => {
-        const nav = document.getElementById('navbar');
-        nav.style.boxShadow = window.scrollY > 50 ? '0 4px 25px rgba(0,0,0,0.10)' : '0 2px 20px rgba(0,0,0,0.06)';
-        const back = document.getElementById('backTop');
-        if (window.scrollY > 400) back.classList.add('visible');
-        else back.classList.remove('visible');
-      });
-
-      // Scroll reveal
-      const reveals = document.querySelectorAll('.reveal');
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('active'); });
-      }, { threshold: 0.12 });
-      reveals.forEach(el => observer.observe(el));
-
-      // Galerie filtres
-      const filterBtns = document.querySelectorAll('.galerie-filtres button');
-      const items = document.querySelectorAll('.galerie-item');
-      filterBtns.forEach(btn => {
-        btn.addEventListener('click', () => {
-          filterBtns.forEach(b => b.classList.remove('active'));
-          btn.classList.add('active');
-          const filter = btn.dataset.filter;
-          items.forEach(item => {
-            item.style.display = (filter === 'all' || item.dataset.cat === filter) ? 'flex' : 'none';
-          });
-        });
-      });
-
-      // Formulaire contact
-      document.getElementById('contactForm').addEventListener('submit', function(e) {
-        e.preventDefault();
-        alert('✅ Votre message a été envoyé avec succès ! (Simulation)');
-        this.reset();
-      });
-    })();
+    const navToggle = document.getElementById('navToggle');
+    const navMenu = document.getElementById('navMenu');
+    navToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('open');
+    });
   </script>
 </body>
-  </html>
+</html>
